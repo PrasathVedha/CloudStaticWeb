@@ -1,152 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prasath Vedharethinam | Portfolio</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #1c1c1c;
+  line-height: 1.6;
+}
 
-    header {
-      background-color: #004080;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
+header {
+  background-color: #0047ab;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
 
-    nav {
-      margin-top: 1rem;
-    }
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
 
-    nav a {
-      margin: 0 1rem;
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: bold;
-    }
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+nav {
+  margin-top: 1rem;
+}
 
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+}
 
-    h2 {
-      border-bottom: 2px solid #004080;
-      padding-bottom: 0.5rem;
-      color: #004080;
-    }
+nav a:hover {
+  text-decoration: underline;
+}
 
-    ul {
-      padding-left: 1.5rem;
-    }
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
 
-    .project {
-      margin-bottom: 1.5rem;
-    }
+section {
+  margin-bottom: 3rem;
+}
 
-    a {
-      color: #004080;
-    }
+h2 {
+  border-bottom: 2px solid #0047ab;
+  padding-bottom: 0.5rem;
+  color: #0047ab;
+}
 
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #004080;
-      color: white;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Prasath Vedharethinam</h1>
-    <p>Information Technology Student | Web Developer | Cloud Enthusiast</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm an Information Technology undergraduate passionate about software development, cloud computing, and problem-solving. I enjoy building web applications and solving algorithmic challenges.</p>
-  </section>
+.project {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 4px solid #0047ab;
+  background-color: #f5f9ff;
+  border-radius: 5px;
+}
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li><strong>Languages:</strong> C++, Python</li>
-      <li><strong>Frameworks:</strong> HTML, CSS</li>
-      <li><strong>Tools:</strong> Google Cloud Platform, MySQL, Oracle SQL</li>
-      <li><strong>Cloud Platforms:</strong> Google Cloud</li>
-      <li><strong>Soft Skills:</strong> Multi-tasking, Problem-solving</li>
-    </ul>
-  </section>
+a {
+  color: #0047ab;
+}
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Sports Website</h3>
-      <p>Developed a responsive sports e-commerce site with interactive UI and smooth navigation.</p>
-      <p><strong>Tech:</strong> HTML, CSS</p>
-    </div>
-    <div class="project">
-      <h3>Sudoku Solver</h3>
-      <p>Created a Python program that uses backtracking to solve any standard Sudoku puzzle.</p>
-      <p><strong>Tech:</strong> Python, Backtracking Algorithm</p>
-    </div>
-    <div class="project">
-      <h3>AWS Storage</h3>
-      <p>Built a web app for uploading and downloading files using AWS S3 and JavaScript.</p>
-      <p><strong>Tech:</strong> AWS S3, HTML</p>
-    </div>
-  </section>
+a:hover {
+  text-decoration: underline;
+}
 
-  <section id="certificates">
-    <h2>Certificates</h2>
-    <ul>
-      <li>Data Structures and Algorithms – June 2024</li>
-      <li>Cyber Security and Privacy (NPTEL) – October 2024</li>
-      <li>The Bits and Bytes of Computer Networking (Coursera) – February 2024</li>
-      <li>GenAI for Everyone (Coursera) – February 2024</li>
-    </ul>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>Lovely Professional University</strong> – B.Tech in Information Technology (Aug 2022 – Present)</p>
-    <p><strong>Paavai Vidhyashram CBSE School</strong> – Senior Secondary (90.4%, 2021-2022)</p>
-    <p><strong>Paavai Vidhyashram CBSE School</strong> – Secondary (93.4%, 2019-2020)</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:prasath.vedha@gmail.com">prasath.vedha@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/prasath-vedharethinam" target="_blank">linkedin.com/in/prasath-vedharethinam</a></p>
-    <p>GitHub: <a href="https://github.com/PrasathVedha" target="_blank">github.com/PrasathVedha</a></p>
-    <p>Phone: +91-9487995878</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Prasath Vedharethinam. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+footer {
+  background-color: #0047ab;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
